@@ -1,0 +1,4 @@
+Lab director interface and report generator
+npm (required for pdfkit)
+pdfkit
+streamlit
