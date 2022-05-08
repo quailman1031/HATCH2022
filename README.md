@@ -7,6 +7,9 @@ PGxInsight software was developed as part of the Hudson Alpha Tech Challenge 202
 3. The Sample_Genetic_Data.txt file was utilized to search gene variants in the integrated CPIC & PharmGKB database from the command line which generated the PharmGenResults1.txt report.
 4. An user-interface was created to allow providers the ease of uploading thier genomic data reports which are then searched against an integrated PharmGKB and CPIC database to generate a pdf report tailored to a physician's preference.
 
+##App##
+http://share.streamlit.io/kostrouc/HATCH2022/master/streamlit_app.py
+
 Citation:
 
 Casey, D., Carter, J., Ostrouchov, K. (2022). PGxInsight. github.org. Available from: https://github.com/kostrouc/HATCH2022/ 
