@@ -1,0 +1,2208 @@
+Position	Gene	TerstedVariant	Diplotypecall
+			 
+			 
+	ABCB1		 
+			 
+			
+			" ""*1"""
+			" ""rs1045642.1"""
+			
+			
+			 
+			 
+		rs1045642	
+			
+			
+	ABCG2		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs2231142	
+			
+			
+	ACYP2		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1872328	
+			
+			
+	ADRB2		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1042713	
+			
+			
+	ANKK1		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1800497	
+			
+			
+	CACNA1S		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1800559	
+		rs772226819	
+			
+			
+	CALU		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs339097	
+			
+			
+	CEP72		 
+			 
+			
+			" ""rs924607"""
+			" ""rs924607"""
+			
+			
+			 
+			 
+		rs924607	
+			
+			
+	CETP		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1532624	
+			
+			
+	COMT		 
+			 
+			
+			" ""rs4680"""
+			" ""rs4680"""
+			
+			
+			 
+			 
+		rs4680	
+			
+			
+	COQ2		 
+			 
+			
+			" ""*1"""
+			" ""rs4693075"""
+			
+			
+			 
+			 
+		rs4693075	
+			
+			
+	CYP2B6		 
+			 
+			
+			" ""*6"""
+			" ""*6"""
+			
+			
+			 
+			 
+		rs2279343	
+		rs28399499	
+		rs3745274	
+			
+			
+	CYP2C		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs12777823	
+			
+			
+	CYP2C19		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs12248560	
+		rs4986893	
+		rs41291556	
+		rs4244285	
+		rs56337013	
+		rs72552267	
+		rs28399504	
+			
+			
+	CYP2C8		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs10509681	
+			
+			
+	CYP2C9		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1799853	
+		rs1057910	
+		rs56165452	
+		rs7900194	
+		rs28371685	
+		rs9332131	
+		rs28371686	
+			
+			
+	CYP2D6		 
+			 
+			
+			" ""*1"""
+			" ""*2"""
+			
+			
+			 
+			 
+		rs1065852	
+		rs28371706	
+	Hs00010001_cn		
+		rs28371725	
+		rs5030655	
+		rs5030656	
+		rs59421388	
+	Hs04083572_cn		
+		rs5030865	
+		rs35742686	
+		rs3892097	
+		rs16947	
+	Hs04502391_cn		
+			
+			
+	CYP3A5		 
+			 
+			
+			" ""*3"""
+			" ""*3"""
+			
+			
+			 
+			 
+		rs776746	
+			
+			
+	CYP4F2		 
+			 
+			
+			" ""*1"""
+			" ""*3"""
+			
+			
+			 
+			 
+		rs2108622	
+			
+			
+	DPYD		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs78060119	
+		rs115232898	
+		rs67376798	
+		rs55886062	
+		rs1801268	
+		rs3918290	
+		rs72549303	
+		rs75017182	
+		rs1801266	
+		rs72549309	
+			
+			
+	DRD2		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1799978	
+			
+			
+	F5		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs6025	
+			
+			
+	FKBP5		 
+			 
+			
+			" ""*1"""
+			" ""rs4713916"""
+			
+			
+			 
+			 
+		rs4713916	
+			
+			
+	G6PD		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1050829	
+		rs5030868	
+		rs1050828	
+			
+			
+	GRIK4		 
+			 
+			
+			" ""rs1954787"""
+			" ""rs1954787"""
+			
+			
+			 
+			 
+		rs1954787	
+			
+			
+	HMGCR		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs17244841	
+			
+			
+	HTR2A		 
+			 
+			
+			" ""rs7997012"""
+			" ""rs7997012"""
+			
+			
+			 
+			 
+		rs7997012	
+			
+			
+	HTR2C		 
+			 
+			
+			" ""rs1414334"""
+			" ""rs1414334"""
+			
+			
+			 
+			 
+		rs1414334	
+		rs3813929	
+			
+			
+	IFNL3		 
+			 
+			
+			" ""*1"""
+			" ""rs12979860"""
+			
+			
+			 
+			 
+		rs12979860	
+			
+			
+	KIF6		 
+			 
+			
+			" ""*1"""
+			" ""rs20455"""
+			
+			
+			 
+			 
+		rs20455	
+			
+			
+	LPA		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs10455872	
+		rs3798220	
+			
+			
+	MC4R		 
+			 
+			
+			" ""*1"""
+			" ""rs489693"""
+			
+			
+			 
+			 
+		rs489693	
+			
+			
+	MTHFR		 
+			 
+			
+			" ""*1"""
+			" ""rs1801133"""
+			
+			
+			 
+			 
+		rs1801133	
+			
+			
+	NUDT15		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs116855232	
+			
+			
+	OPRD1		 
+			 
+			
+			" ""rs678849"""
+			" ""rs678849"""
+			
+			
+			 
+			 
+		rs678849	
+			
+			
+	OPRM1		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1799971	
+			
+			
+	RYR1		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs193922753	
+		rs118192168	
+		rs193922878	
+		rs193922802	
+		rs118192177	
+		rs121918593	
+		rs121918594	
+		rs118192124	
+		rs118192178	
+		rs193922818	
+		rs118192172	
+		rs63749869	
+		rs193922816	
+		rs118192116	
+		rs118192162	
+		rs193922876	
+		rs121918596	
+		rs193922747	
+		rs193922770	
+		rs193922803	
+		rs193922772	
+		rs193922807	
+		rs118192122	
+		rs193922832	
+		rs193922843	
+		rs28933397	
+		rs118192175	
+		rs118192170	
+		rs1801086	
+		rs121918595	
+		rs118192161	
+		rs118192167	
+		rs112563513	
+		rs28933396	
+		rs121918592	
+		rs193922768	
+		rs111888148	
+		rs193922809	
+			
+			
+	SLCO1B1		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs4149056	
+			
+			
+	TPMT		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs1800460	
+		rs1800584	
+		rs1142345	
+		rs1800462	
+			
+			
+	UGT1A1		 
+			 
+			
+			" ""*1"""
+			" ""*80"""
+			
+			
+			 
+			 
+		rs887829	
+		rs4148323	
+			
+			
+	VKORC1		 
+			 
+			
+			" ""*1"""
+			" ""rs9923231"""
+			
+			
+			 
+			 
+		rs9923231	
+			
+			
+	YEATS4		 
+			 
+			
+			" ""*1"""
+			" ""*1"""
+			
+			
+			 
+			 
+		rs7297610	
+			
+			
+			
+	VARIANT_CALLS		 
+	Hs00010001_cn		 
+	ALIASES		 
+			
+			
+	ALTS		 
+	1		
+			
+	CHROM		" ""chr22"""
+"1"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""2"""
+	POS		1
+	REF		" ""2"""
+			
+	Hs04083572_cn		 
+	ALIASES		 
+			
+			
+	ALTS		 
+	1		
+			
+	CHROM		" ""chr22"""
+"2"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""2"""
+	POS		2
+	REF		" ""2"""
+			
+	Hs04502391_cn		 
+	ALIASES		 
+			
+			
+	ALTS		 
+	1		
+			
+	CHROM		" ""chr22"""
+"3"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""2"""
+	POS		3
+	REF		" ""2"""
+			
+		rs1042713	 
+	ALIASES		 
+		rs1042713	
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr5"""
+"148826877"","	COORDINATES		" ""chr5"
+	GENOTYPE		" ""G/G"""
+	POS		148826877
+	REF		" ""G"""
+			
+		rs10455872	 
+	ALIASES		 
+		rs10455872	
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr6"""
+"160589086"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""A/A"""
+	POS		160589086
+	REF		" ""A"""
+			
+		rs1045642	 
+	ALIASES		 
+	3435C>T		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr7"""
+"87509329"","	COORDINATES		" ""chr7"
+	GENOTYPE		" ""A/G"""
+	POS		87509329
+	REF		" ""A"""
+			
+		rs1050828	 
+	ALIASES		 
+	202G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chrX"""
+"154536002"","	COORDINATES		" ""chrX"
+	GENOTYPE		" ""C/C"""
+	POS		154536002
+	REF		" ""C"""
+			
+		rs1050829	 
+	ALIASES		 
+	376A>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chrX"""
+"154535277"","	COORDINATES		" ""chrX"
+	GENOTYPE		" ""T/T"""
+	POS		154535277
+	REF		" ""T"""
+			
+		rs10509681	 
+	ALIASES		 
+	c.1196A>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr10"""
+"95038992"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""T/T"""
+	POS		95038992
+	REF		" ""T"""
+			
+		rs1057910	 
+	ALIASES		 
+	42614A>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr10"""
+"94981296"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""A/A"""
+	POS		94981296
+	REF		" ""A"""
+			
+		rs1065852	 
+	ALIASES		 
+	100C>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr22"""
+"42130692"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""G/G"""
+	POS		42130692
+	REF		" ""G"""
+			
+		rs111888148	 
+	ALIASES		 
+	c.1589G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38455463"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38455463
+	REF		" ""G"""
+			
+		rs112563513	 
+	ALIASES		 
+	c.7007G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38499223"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38499223
+	REF		" ""G"""
+			
+		rs1142345	 
+	ALIASES		 
+	c.719A>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr6"""
+"18130687"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""T/T"""
+	POS		18130687
+	REF		" ""T"""
+			
+		rs115232898	 
+	ALIASES		 
+	557A>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr1"""
+"97699474"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""T/T"""
+	POS		97699474
+	REF		" ""T"""
+			
+		rs116855232	 
+	ALIASES		 
+	415C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr13"""
+"48045719"","	COORDINATES		" ""chr13"
+	GENOTYPE		" ""C/C"""
+	POS		48045719
+	REF		" ""C"""
+			
+		rs118192116	 
+	ALIASES		 
+	c.1209C>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr19"""
+"38451850"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38451850
+	REF		" ""C"""
+			
+		rs118192122	 
+	ALIASES		 
+	c.7361G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38500643"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38500643
+	REF		" ""G"""
+			
+		rs118192124	 
+	ALIASES		 
+	c.7354C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38500636"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38500636
+	REF		" ""C"""
+			
+		rs118192161	 
+	ALIASES		 
+	c.487C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38444211"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38444211
+	REF		" ""C"""
+			
+		rs118192162	 
+	ALIASES		 
+	c.1565A>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr19"""
+"38455359"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""A/A"""
+	POS		38455359
+	REF		" ""A"""
+			
+		rs118192167	 
+	ALIASES		 
+	c.14387A>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr19"""
+"38580004"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""A/A"""
+	POS		38580004
+	REF		" ""A"""
+			
+		rs118192168	 
+	ALIASES		 
+	c.14545G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38580403"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38580403
+	REF		" ""G"""
+			
+		rs118192170	 
+	ALIASES		 
+	c.14693T>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr19"""
+"38584989"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""T/T"""
+	POS		38584989
+	REF		" ""T"""
+			
+		rs118192172	 
+	ALIASES		 
+	c.1840C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38457545"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38457545
+	REF		" ""C"""
+			
+		rs118192175	 
+	ALIASES		 
+	c.6487C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38494564"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38494564
+	REF		" ""C"""
+			
+		rs118192177	 
+	ALIASES		 
+	c.6617C>G		
+	c.6617C>T		
+			
+	ALTS		 
+	G		
+	T		
+			
+	CHROM		" ""chr19"""
+"38496283"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38496283
+	REF		" ""C"""
+			
+		rs118192178	 
+	ALIASES		 
+	c.7522C>G		
+	c.7522C>T		
+			
+	ALTS		 
+	G		
+	T		
+			
+	CHROM		" ""chr19"""
+"38500898"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38500898
+	REF		" ""C"""
+			
+		rs121918592	 
+	ALIASES		 
+	c.1021G>A		
+	c.1021G>C		
+			
+	ALTS		 
+	A		
+	C		
+			
+	CHROM		" ""chr19"""
+"38448712"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38448712
+	REF		" ""G"""
+			
+		rs121918593	 
+	ALIASES		 
+	c.7300G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38499993"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38499993
+	REF		" ""G"""
+			
+		rs121918594	 
+	ALIASES		 
+	c.7373G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38500655"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38500655
+	REF		" ""G"""
+			
+		rs121918595	 
+	ALIASES		 
+	c.14477C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38580094"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38580094
+	REF		" ""C"""
+			
+		rs121918596	 
+	ALIASES		 
+	c.7039_7041delGAG		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr19"""
+"38499645"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""GGAG/GGAG"""
+	POS		38499645
+	REF		" ""GGAG"""
+			
+		rs12248560	 
+	ALIASES		 
+	-806C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr10"""
+"94761900"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""C/C"""
+	POS		94761900
+	REF		" ""C"""
+			
+		rs12777823	 
+	ALIASES		 
+	g.96405502G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr10"""
+"94645745"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""G/G"""
+	POS		94645745
+	REF		" ""G"""
+			
+		rs12979860	 
+	ALIASES		 
+		rs12979860	
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"39248147"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/T"""
+	POS		39248147
+	REF		" ""C"""
+			
+		rs1414334	 
+	ALIASES		 
+	114138144C>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chrX"""
+"114903581"","	COORDINATES		" ""chrX"
+	GENOTYPE		" ""G/G"""
+	POS		114903581
+	REF		" ""C"""
+			
+		rs1532624	 
+	ALIASES		 
+	g.57005479C>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr16"""
+"56971567"","	COORDINATES		" ""chr16"
+	GENOTYPE		" ""C/C"""
+	POS		56971567
+	REF		" ""C"""
+			
+		rs16947	 
+	ALIASES		 
+	2850C>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr22"""
+"42127941"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""A/G"""
+	POS		42127941
+	REF		" ""G"""
+			
+		rs17244841	 
+	ALIASES		 
+	g.74642855A>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr5"""
+"75347030"","	COORDINATES		" ""chr5"
+	GENOTYPE		" ""A/A"""
+	POS		75347030
+	REF		" ""A"""
+			
+		rs1799853	 
+	ALIASES		 
+	3608C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr10"""
+"94942290"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""C/C"""
+	POS		94942290
+	REF		" ""C"""
+			
+		rs1799971	 
+	ALIASES		 
+	A118G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr6"""
+"154039662"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""A/A"""
+	POS		154039662
+	REF		" ""A"""
+			
+		rs1799978	 
+	ALIASES		 
+	-241A>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr11"""
+"113475629"","	COORDINATES		" ""chr11"
+	GENOTYPE		" ""T/T"""
+	POS		113475629
+	REF		" ""T"""
+			
+		rs1800460	 
+	ALIASES		 
+	c.460G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr6"""
+"18138997"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""C/C"""
+	POS		18138997
+	REF		" ""C"""
+			
+		rs1800462	 
+	ALIASES		 
+	c.238G>C		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr6"""
+"18143724"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""C/C"""
+	POS		18143724
+	REF		" ""C"""
+			
+		rs1800497	 
+	ALIASES		 
+	DRD2		"Taq1A"""
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr11"""
+"113400106"","	COORDINATES		" ""chr11"
+	GENOTYPE		" ""G/G"""
+	POS		113400106
+	REF		" ""G"""
+			
+		rs1800559	 
+	ALIASES		 
+	c.3257G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr1"""
+"201060815"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""C/C"""
+	POS		201060815
+	REF		" ""C"""
+			
+		rs1800584	 
+	ALIASES		 
+	c.626-1G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr6"""
+"18130781"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""C/C"""
+	POS		18130781
+	REF		" ""C"""
+			
+		rs1801086	 
+	ALIASES		 
+	c.742G>A		
+	c.742G>C		
+			
+	ALTS		 
+	A		
+	C		
+			
+	CHROM		" ""chr19"""
+"38446710"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38446710
+	REF		" ""G"""
+			
+		rs1801133	 
+	ALIASES		 
+	c.665C>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr1"""
+"11796321"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""G/A"""
+	POS		11796321
+	REF		" ""G"""
+			
+		rs1801266	 
+	ALIASES		 
+	703C>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr1"""
+"97691776"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""G/G"""
+	POS		97691776
+	REF		" ""G"""
+			
+		rs1801268	 
+	ALIASES		 
+	2983G>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr1"""
+"97079071"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""C/C"""
+	POS		97079071
+	REF		" ""C"""
+			
+		rs1872328	 
+	ALIASES		 
+		rs1872328	
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr2"""
+"54168122"","	COORDINATES		" ""chr2"
+	GENOTYPE		" ""G/G"""
+	POS		54168122
+	REF		" ""G"""
+			
+		rs193922747	 
+	ALIASES		 
+	c.103T>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr19"""
+"38440802"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""T/T"""
+	POS		38440802
+	REF		" ""T"""
+			
+		rs193922753	 
+	ALIASES		 
+	c.488G>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38444212"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38444212
+	REF		" ""G"""
+			
+		rs193922768	 
+	ALIASES		 
+	c.1597C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38455471"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38455471
+	REF		" ""C"""
+			
+		rs193922770	 
+	ALIASES		 
+	c.1654C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38455528"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38455528
+	REF		" ""C"""
+			
+		rs193922772	 
+	ALIASES		 
+	c.1841G>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38457546"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38457546
+	REF		" ""G"""
+			
+		rs193922802	 
+	ALIASES		 
+	c.7048G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38499655"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38499655
+	REF		" ""G"""
+			
+		rs193922803	 
+	ALIASES		 
+	c.7063C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38499670"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38499670
+	REF		" ""C"""
+			
+		rs193922807	 
+	ALIASES		 
+	c.7124G>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr19"""
+"38499731"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38499731
+	REF		" ""G"""
+			
+		rs193922809	 
+	ALIASES		 
+	c.7282G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38499975"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38499975
+	REF		" ""G"""
+			
+		rs193922816	 
+	ALIASES		 
+	c.7360C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38500642"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38500642
+	REF		" ""C"""
+			
+		rs193922818	 
+	ALIASES		 
+	c.7523G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38500899"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38500899
+	REF		" ""G"""
+			
+		rs193922832	 
+	ALIASES		 
+	c.9310G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38512321"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38512321
+	REF		" ""G"""
+			
+		rs193922843	 
+	ALIASES		 
+	c.11969G>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38543832"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38543832
+	REF		" ""G"""
+			
+		rs193922876	 
+	ALIASES		 
+	c.14497C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38580114"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38580114
+	REF		" ""C"""
+			
+		rs193922878	 
+	ALIASES		 
+	c.14512C>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr19"""
+"38580370"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38580370
+	REF		" ""C"""
+			
+		rs1954787	 
+	ALIASES		 
+	83-10039T>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr11"""
+"120792654"","	COORDINATES		" ""chr11"
+	GENOTYPE		" ""C/C"""
+	POS		120792654
+	REF		" ""T"""
+			
+		rs20455	 
+	ALIASES		 
+		rs20455	
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr6"""
+"39357302"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""A/G"""
+	POS		39357302
+	REF		" ""A"""
+			
+		rs2108622	 
+	ALIASES		 
+	c.1297G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"15879621"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/T"""
+	POS		15879621
+	REF		" ""C"""
+			
+		rs2231142	 
+	ALIASES		 
+	421C>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr4"""
+"88131171"","	COORDINATES		" ""chr4"
+	GENOTYPE		" ""G/G"""
+	POS		88131171
+	REF		" ""G"""
+			
+		rs2279343	 
+	ALIASES		 
+	785A>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr19"""
+"41009358"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		41009358
+	REF		" ""A"""
+			
+		rs28371685	 
+	ALIASES		 
+	42542C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr10"""
+"94981224"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""C/C"""
+	POS		94981224
+	REF		" ""C"""
+			
+		rs28371686	 
+	ALIASES		 
+	42619C>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr10"""
+"94981301"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""C/C"""
+	POS		94981301
+	REF		" ""C"""
+			
+		rs28371706	 
+	ALIASES		 
+	1023C>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr22"""
+"42129770"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""G/G"""
+	POS		42129770
+	REF		" ""G"""
+			
+		rs28371725	 
+	ALIASES		 
+	2988G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr22"""
+"42127803"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""C/C"""
+	POS		42127803
+	REF		" ""C"""
+			
+		rs28399499	 
+	ALIASES		 
+	983T>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr19"""
+"41012316"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""T/T"""
+	POS		41012316
+	REF		" ""T"""
+			
+		rs28399504	 
+	ALIASES		 
+	1A>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr10"""
+"94762706"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""A/A"""
+	POS		94762706
+	REF		" ""A"""
+			
+		rs28933396	 
+	ALIASES		 
+	c.7304G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38499997"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38499997
+	REF		" ""G"""
+			
+		rs28933397	 
+	ALIASES		 
+	c.7372C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"38500654"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""C/C"""
+	POS		38500654
+	REF		" ""C"""
+			
+		rs339097	 
+	ALIASES		 
+	g.128399224A>G		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr7"""
+"128759170"","	COORDINATES		" ""chr7"
+	GENOTYPE		" ""A/A"""
+	POS		128759170
+	REF		" ""A"""
+			
+		rs35742686	 
+	ALIASES		 
+	2549delA		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr22"""
+"42128241"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""CT/CT"""
+	POS		42128241
+	REF		" ""CT"""
+			
+		rs3745274	 
+	ALIASES		 
+	516G>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr19"""
+"41006936"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""T/T"""
+	POS		41006936
+	REF		" ""G"""
+			
+		rs3798220	 
+	ALIASES		 
+		rs3798220	
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr6"""
+"160540105"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""T/T"""
+	POS		160540105
+	REF		" ""T"""
+			
+		rs3813929	 
+	ALIASES		 
+	-759C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chrX"""
+"114584047"","	COORDINATES		" ""chrX"
+	GENOTYPE		" ""C/C"""
+	POS		114584047
+	REF		" ""C"""
+			
+		rs3892097	 
+	ALIASES		 
+	1846G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr22"""
+"42128945"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""C/C"""
+	POS		42128945
+	REF		" ""C"""
+			
+		rs3918290	 
+	ALIASES		 
+	1905+1G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr1"""
+"97450058"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""C/C"""
+	POS		97450058
+	REF		" ""C"""
+			
+		rs41291556	 
+	ALIASES		 
+	12711T>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr10"""
+"94775416"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""T/T"""
+	POS		94775416
+	REF		" ""T"""
+			
+		rs4148323	 
+	ALIASES		 
+	211G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr2"""
+"233760498"","	COORDINATES		" ""chr2"
+	GENOTYPE		" ""G/G"""
+	POS		233760498
+	REF		" ""G"""
+			
+		rs4149056	 
+	ALIASES		 
+	521T>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr12"""
+"21178615"","	COORDINATES		" ""chr12"
+	GENOTYPE		" ""T/T"""
+	POS		21178615
+	REF		" ""T"""
+			
+		rs4244285	 
+	ALIASES		 
+	19154G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr10"""
+"94781859"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""G/G"""
+	POS		94781859
+	REF		" ""G"""
+			
+		rs4680	 
+	ALIASES		 
+	Val158Met		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr22"""
+"19963748"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""A/A"""
+	POS		19963748
+	REF		" ""G"""
+			
+		rs4693075	 
+	ALIASES		 
+	g.84192168G>C		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr4"""
+"83271015"","	COORDINATES		" ""chr4"
+	GENOTYPE		" ""G/C"""
+	POS		83271015
+	REF		" ""G"""
+			
+		rs4713916	 
+	ALIASES		 
+		rs4713916	
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr6"""
+"35702206"","	COORDINATES		" ""chr6"
+	GENOTYPE		" ""A/G"""
+	POS		35702206
+	REF		" ""A"""
+			
+		rs489693	 
+	ALIASES		 
+	g.60215554C>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr18"""
+"60215554"","	COORDINATES		" ""chr18"
+	GENOTYPE		" ""C/A"""
+	POS		60215554
+	REF		" ""C"""
+			
+		rs4986893	 
+	ALIASES		 
+	17948G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr10"""
+"94780653"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""G/G"""
+	POS		94780653
+	REF		" ""G"""
+			
+		rs5030655	 
+	ALIASES		 
+	1707delT		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr22"""
+"42129083"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""CA/CA"""
+	POS		42129083
+	REF		" ""CA"""
+			
+		rs5030656	 
+	ALIASES		 
+	2615_2617delAAG		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr22"""
+"42128173"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""CCTT/CCTT"""
+	POS		42128173
+	REF		" ""CCTT"""
+			
+		rs5030865	 
+	ALIASES		 
+	1758G>T		
+	1758G>A		
+			
+	ALTS		 
+	A		
+	T		
+			
+	CHROM		" ""chr22"""
+"42129033"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""C/C"""
+	POS		42129033
+	REF		" ""C"""
+			
+		rs5030868	 
+	ALIASES		 
+	563C>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chrX"""
+"154534419"","	COORDINATES		" ""chrX"
+	GENOTYPE		" ""G/G"""
+	POS		154534419
+	REF		" ""G"""
+			
+		rs55886062	 
+	ALIASES		 
+	1679T>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr1"""
+"97515787"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""A/A"""
+	POS		97515787
+	REF		" ""A"""
+			
+		rs56165452	 
+	ALIASES		 
+	42615T>A		
+	42615T>C		
+			
+	ALTS		 
+	A		
+	C		
+			
+	CHROM		" ""chr10"""
+"94981297"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""T/T"""
+	POS		94981297
+	REF		" ""T"""
+			
+		rs56337013	 
+	ALIASES		 
+	90033C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr10"""
+"94852738"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""C/C"""
+	POS		94852738
+	REF		" ""C"""
+			
+		rs59421388	 
+	ALIASES		 
+	3183G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr22"""
+"42127608"","	COORDINATES		" ""chr22"
+	GENOTYPE		" ""C/C"""
+	POS		42127608
+	REF		" ""C"""
+			
+		rs6025	 
+	ALIASES		 
+		rs6025	
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr1"""
+"169549811"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""C/C"""
+	POS		169549811
+	REF		" ""C"""
+			
+		rs63749869	 
+	ALIASES		 
+	c.14582G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr19"""
+"38580440"","	COORDINATES		" ""chr19"
+	GENOTYPE		" ""G/G"""
+	POS		38580440
+	REF		" ""G"""
+			
+		rs67376798	 
+	ALIASES		 
+	2846A>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr1"""
+"97082391"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""T/T"""
+	POS		97082391
+	REF		" ""T"""
+			
+		rs678849	 
+	ALIASES		 
+		rs678849	
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr1"""
+"28818676"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""T/T"""
+	POS		28818676
+	REF		" ""C"""
+			
+		rs72549303	 
+	ALIASES		 
+	475994del		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr1"""
+"97450065"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""TG/TG"""
+	POS		97450065
+	REF		" ""TG"""
+			
+		rs72549309	 
+	ALIASES		 
+	185642_185645delTCAT		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr1"""
+"97740410"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""GATGA/GATGA"""
+	POS		97740410
+	REF		" ""GATGA"""
+			
+		rs72552267	 
+	ALIASES		 
+	12748G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr10"""
+"94775453"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""G/G"""
+	POS		94775453
+	REF		" ""G"""
+			
+		rs7297610	 
+	ALIASES		 
+		rs7297610	
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr12"""
+"69430244"","	COORDINATES		" ""chr12"
+	GENOTYPE		" ""C/C"""
+	POS		69430244
+	REF		" ""C"""
+			
+		rs75017182	 
+	ALIASES		 
+	c.1129-5923C>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr1"""
+"97579893"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""G/G"""
+	POS		97579893
+	REF		" ""G"""
+			
+		rs772226819	 
+	ALIASES		 
+	c.520C>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr1"""
+"201091993"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""G/G"""
+	POS		201091993
+	REF		" ""G"""
+			
+		rs776746	 
+	ALIASES		 
+	6986A>G		
+			
+	ALTS		 
+	C		
+			
+	CHROM		" ""chr7"""
+"99672916"","	COORDINATES		" ""chr7"
+	GENOTYPE		" ""C/C"""
+	POS		99672916
+	REF		" ""T"""
+			
+		rs78060119	 
+	ALIASES		 
+	c.1156G>T		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr1"""
+"97573943"","	COORDINATES		" ""chr1"
+	GENOTYPE		" ""C/C"""
+	POS		97573943
+	REF		" ""C"""
+			
+		rs7900194	 
+	ALIASES		 
+	449G>A		
+			
+	ALTS		 
+	A		
+			
+	CHROM		" ""chr10"""
+"94942309"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""G/G"""
+	POS		94942309
+	REF		" ""G"""
+			
+		rs7997012	 
+	ALIASES		 
+		rs7997012	
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr13"""
+"46837850"","	COORDINATES		" ""chr13"
+	GENOTYPE		" ""G/G"""
+	POS		46837850
+	REF		" ""A"""
+			
+		rs887829	 
+	ALIASES		 
+	-364C>T		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr2"""
+"233759924"","	COORDINATES		" ""chr2"
+	GENOTYPE		" ""C/T"""
+	POS		233759924
+	REF		" ""C"""
+			
+		rs924607	 
+	ALIASES		 
+		rs924607	
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr5"""
+"609978"","	COORDINATES		" ""chr5"
+	GENOTYPE		" ""T/T"""
+	POS		609978
+	REF		" ""C"""
+			
+		rs9332131	 
+	ALIASES		 
+	10601delA		
+			
+	ALTS		 
+	G		
+			
+	CHROM		" ""chr10"""
+"94949281"","	COORDINATES		" ""chr10"
+	GENOTYPE		" ""GA/GA"""
+	POS		94949281
+	REF		" ""GA"""
+			
+		rs9923231	 
+	ALIASES		 
+	-1639G>A		
+			
+	ALTS		 
+	T		
+			
+	CHROM		" ""chr16"""
+"31096368"","	COORDINATES		" ""chr16"
+	GENOTYPE		" ""C/T"""
+	POS		31096368
+	REF		" ""C"""
+			
+			
+			
+	PATIENT		 
+	id		" ""pat1"""
+	bi	thDate	" ""2000-01-01"""
+			
+	PIPELINE_VERSION		" ""0.1.0"""
