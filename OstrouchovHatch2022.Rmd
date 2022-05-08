@@ -64,7 +64,7 @@ awk -F '\t' '{print $3}' SampleGeneticData.txt > var.txt
 grep . var.txt | uniq -u > var1.txt
 
 #search database for unique gene variant IDs & output results file
-GOGO=vars1.txt
+GOGO=var1.txt
 while read lala; do
 grep $lala PharmGKB_CPIC_db1.txt >> PharmGenResults1.txt
 done <$GOGO
