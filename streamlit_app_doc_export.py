@@ -22,7 +22,7 @@ import base64
 import json
 #import StringIO
 import time
-
+import pandas as pd
 
 
 
@@ -234,6 +234,18 @@ if uploaded_file is not None:
          status_text.text("comparing patient variant data to available pharmogenetic data...")
     status_text = st.empty()
     st.success("Patient data processing complete")
+    
+pgx = pd.read_csv('pgkb_cpic.txt',sep='\t')
+variants = []
+medicines = []
+for idx,row in pgx.iterrows():
+    if row["pgkb_GenotypeAllele"] not in variants:
+        variants.append( row["pgkb_GenotypeAllele"] )
+    if row["pgkb_chemicals"] not in medicines:
+        medicines.append( row["pgkb_chemicals"] )
+
+st.write(variants)
+st.write(medicines)
 
 left, right = st.columns(2)
 
