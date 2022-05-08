@@ -1,5 +1,4 @@
-Lab director interface and report generator
-npm (required for pdfkit)
+npm
 pdfkit
 streamlit
 reportlab
@@ -8,3 +7,19 @@ json
 time
 pandas
 math
+datetime
+os.path
+os
+reportlab.pdfgen
+reportlab.platypus
+reportlab.platypus.flowables
+reportlab.lib.styles
+from reportlab.rl_config
+from reportlab.lib.units
+from reportlab.lib
+from reportlab.lib.pagesizes
+from reportlab.pdfgen
+from reportlab.pdfbase
+from reportlab.pdfbase.pdfmetrics
+from reportlab.pdfbase.ttfonts
+from reportlab.lib.enums
