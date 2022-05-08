@@ -1,30 +1,57 @@
 ---
-title: "Hatch2022"
+title: "Hatch2022 More Than Pharm To Table"
 author: "Katie Ostrouchov"
-date: "5/6/2022"
+date: "5/7/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+CPIC sql databases were parsed in pgAdmin 4 with postgresql. A csv file of each CPIC table was exported from pgAdmin4. The CPIC csv files & PharmGKB tsv files were converted to tab delimited text utilizing sed 's/,/\t/g' in bash. The following script was then utilized to perform full joins on the database based on a column with a common field. 
+
+
+```{r}
+library(dplyr)
+
+#read PharmGKB files
+A <- read.table("integrate/clinical_ann_alleles.txt", header = TRUE, sep="\t")
+B <- read.table("integrate/clinical_ann_evidence.txt",  header = TRUE, sep="\t")
+C <- read.table("integrate/clinical_ann_history.txt", header = TRUE, sep="\t")
+D <- read.table("integrate/clinical_annotations.txt",  header = TRUE, sep="\t")
+E <- read.table("integrate/clinicalVariants.txt",  header = TRUE, sep="\t")
+G <- read.table("integrate/drugLabels.txt",  header = TRUE, sep="\t")
+H <- read.table("integrate/drugLabels.byGene.txt",  header = TRUE, sep="\t")
+
+#read CPIC files
+I <- read.table("integrate/gene.txt", header = TRUE, sep="\t")
+J <- read.table("integrate/gene_result.txt",  header = TRUE, sep="\t")
+K <- read.table("integrate/drug.txt", header = TRUE, sep="\t")
+L <- read.table("integrate/gene_result_lookup.txt",  header = TRUE, sep="\t")
+M <- read.table("integrate/pair.txt",  header = TRUE, sep="\t")
+
+#perform full_joins
+AB <- full_join(A,B, by="ClinicalAnnotationID")
+ABC <- full_join(AB, C, by="ClinicalAnnotationID")
+ABCD<- full_join(ABC, D, by="ClinicalAnnotationID")
+ABCDE <- full_join(ABCD, E, by="variant")
+ABCDG <- full_join(ABCDE,G, by="PharmGKBID")
+ABCDGH <- full_join(ABCDG, H, by="PharmGKBID")
+
+IJ <- full_join(I, J, by="cpic_genesymbol")
+IJK <- full_join(IJ,K, by="PharmGKBID")
+IJKL <- full_join(IJK, L, by="cpic_id")
+IJKLM <- full_join(IJKL, M, by="cpic_genesymbol")
+
+comb <- full_join(IJKLM, ABCDGH, by="PharmGKBID")
+
+#Now write the output
+write.table(ABCDGH, "PharmGKB.txt", sep = "\t")
+write.table(IJKLM, "CPIC.txt", sep = "\t")
+write.table(comb, "PharmGKB_CPIC_db.txt", sep = "\t")
+
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{bash}
+#searching the database for gene variant matches within patient PGx report
+grep -e "rs1045642.1" -e  "rs924607" -e  "rs4693075" -e  "rs7997012" -e  "rs1414334" PharmGKB_CPIC_db.txt > PharmacogenomicResults.txt
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
 ```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
