@@ -5,7 +5,9 @@ date: "5/7/2022"
 output: html_document
 ---
 
-CPIC sql databases were parsed in pgAdmin 4 with postgresql. A csv file of each CPIC table was exported from pgAdmin4. The CPIC csv files & PharmGKB tsv files were converted to tab delimited text utilizing sed 's/,/\t/g' in bash. The following script was then utilized to perform full joins on the database based on a column with a common field. 
+CPIC sql databases were parsed in pgAdmin 4 with postgresql. A csv file of each CPIC table was exported from pgAdmin4. 
+The CPIC csv files & PharmGKB tsv files were converted to tab delimited text utilizing sed 's/,/\t/g' in bash. 
+The following script was then utilized to perform full joins on the database based on a column with a common field. 
 
 
 ```{r}
@@ -47,7 +49,7 @@ write.table(ABCDGH, "PharmGKB.txt", sep = "\t")
 write.table(IJKLM, "CPIC.txt", sep = "\t")
 write.table(comb, "PharmGKB_CPIC_db.txt", sep = "\t")
 
-#Generated PharmGKB-CPIB database contained 15,286,124 lines with a size of ~ 7.4 GB. Due to file size limitations in Github, the complete database & report was not uploaded to this repo. Only the first 601 lines from the report, and 801 lines from the database were uploaded to this repo.
+#Generated PharmGKB-CPIB database contained 15,286,124 lines with a size of ~ 7.4 GB. Due to file size limitations in Github, the complete database & report was not uploaded to this repo. Only the first 601 lines from the report and 801 lines from the database were uploaded to this repo.
 
 ```
 
