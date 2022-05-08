@@ -9,5 +9,5 @@ PGxInsight software was developed as part of the Hudson Alpha Tech Challenge 202
 
 Citation:
 
-Casey, D., Carter, J., Ostrouchov, K. (2022). PGxInsights. github.org. Available from: https://github.com/kostrouc/HATCH2022/ 
+Casey, D., Carter, J., Ostrouchov, K. (2022). PGxInsight. github.org. Available from: https://github.com/kostrouc/HATCH2022/ 
 
