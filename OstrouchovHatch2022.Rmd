@@ -5,7 +5,9 @@ date: "5/7/2022"
 output: html_document
 ---
 
-CPIC sql databases were parsed in pgAdmin 4 with postgresql. A csv file of each CPIC table was exported from pgAdmin4. The CPIC csv files & PharmGKB tsv files were converted to tab delimited text utilizing sed 's/,/\t/g' in bash. The following script was then utilized to perform full joins on the database based on a column with a common field. 
+CPIC sql databases were parsed in pgAdmin 4 with postgresql. A csv file of each CPIC table was exported from pgAdmin4. 
+The CPIC csv files & PharmGKB tsv files were converted to tab delimited text utilizing sed 's/,/\t/g' in bash. 
+The following script was then utilized to perform full joins on the database based on a column with a common field. 
 
 
 ```{r}
