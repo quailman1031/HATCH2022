@@ -5,9 +5,7 @@ date: "5/7/2022"
 output: html_document
 ---
 
-CPIC sql databases were parsed in pgAdmin 4 with postgresql. A csv file of each CPIC table was exported from pgAdmin4. 
-The CPIC csv files & PharmGKB tsv files were converted to tab delimited text utilizing sed 's/,/\t/g' in bash. 
-The following script was then utilized to perform full joins on the database based on a column with a common field. 
+CPIC sql databases were parsed in pgAdmin 4 with postgresql. A csv file of each CPIC table was exported from pgAdmin4. The CPIC csv files & PharmGKB tsv files were converted to tab delimited text utilizing sed 's/,/\t/g' in bash. The following script was then utilized to perform full joins on the database based on a column with a common field. 
 
 
 ```{r}
@@ -49,11 +47,24 @@ write.table(ABCDGH, "PharmGKB.txt", sep = "\t")
 write.table(IJKLM, "CPIC.txt", sep = "\t")
 write.table(comb, "PharmGKB_CPIC_db.txt", sep = "\t")
 
+#Generated PharmGKB-CPIB database contained 15,286,124 lines with a size of ~ 7.4 GB. Due to file size limitations in Github, the complete database & report was not uploaded to this repo. Only the first 601 lines from the report, and 801 lines from the database were uploaded to this repo.
+
 ```
 
 
 ```{bash}
 #searching the database for gene variant matches within patient PGx report
-grep -e "rs1045642.1" -e  "rs924607" -e  "rs4693075" -e  "rs7997012" -e  "rs1414334" PharmGKB_CPIC_db.txt > PharmacogenomicResults.txt
+
+#print variant column to text file
+awk -F '\t' '{print $3}' SampleGeneticData.txt > var.txt
+
+#remove blank lines & keep only unique values
+grep . var.txt | uniq -u > var1.txt
+
+#search database for unique gene variant IDs & output results file
+GOGO=vars1.txt
+while read lala; do
+grep $lala PharmGKB_CPIC_db1.txt >> PharmGenResults1.txt
+done <$GOGO
 
 ```
