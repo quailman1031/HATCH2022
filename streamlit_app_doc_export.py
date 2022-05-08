@@ -18,7 +18,10 @@ from os import remove
 
 
 import base64
-import pandas as pd
+#import pandas as pd
+import json
+#import StringIO
+import time
 
 
 
@@ -46,7 +49,6 @@ from reportlab.lib.enums import TA_RIGHT
 
 st.set_page_config(layout="centered", page_icon="🎓", page_title="Pharmacogenetic Report Generator")
 st.title("Pharmacogenetic Report Generator")
-
 
 
 
@@ -149,7 +151,8 @@ def myPageWrapper2(patient_data, specimen_details):
         canvas.drawString(
             patient_data_placement,
             HEIGHT - (.6 * inch),
-            "Name: %s, %s"%(patient_data['name']['last'],patient_data['name']['first']) )
+            #"Name: %s, %s"%(patient_data['name']['last'],patient_data['name']['first']) )
+            "Patient ID: %s"%patient_data['ID'] )
         canvas.drawString(
             patient_data_placement,
             HEIGHT - (.8 * inch),
@@ -157,7 +160,7 @@ def myPageWrapper2(patient_data, specimen_details):
         canvas.drawString(
             patient_data_placement,
             HEIGHT - (1.0 * inch),
-            "Sex: %s"%patient_data['sex'])
+            "Sex: %s"%patient_data['SEX'])
         canvas.drawString(
 			patient_data_placement,
 			HEIGHT - (1.2 * inch),
@@ -196,36 +199,46 @@ def myPageWrapper2(patient_data, specimen_details):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 st.write(
     """This application allows lab personel to select appropriate language from pharmacogenetic sources
     and generates a report for the ordering physician"""
 )
 
-st.button("Import patient lab results")
+#st.button("Import patient lab results")
+uploaded_file = st.file_uploader("Import patient lab results")
+patient_data = {}
+
+
+patient_data = {'name': {'first':'Janae', 'last': 'Spencer'}, 
+                'DOB':'07/04/1990', 
+                'SEX': 'Female',
+                'ACC': 'A001237-5-05'}
+specimen_details = {'date_received':'04/01/2022',
+                    'date_report': '05/01/2022',
+                    'test_type': 'AOA'}
+
+if uploaded_file is not None:  
+    with open(uploaded_file.name) as json_file:
+        lab_results = json.load(json_file)
+    #lab_results = json.load(uploaded_file.name)
+    patient_data["ID"] = lab_results['PATIENT']['id']
+    patient_data["DOB"] = lab_results['PATIENT']['birthDate']
+  
+    
+    #st.write("comparing patient variant data to available pharmogenetic data...")
+    my_bar = st.progress(0)
+    status_text = st.empty()
+    for percent_complete in range(100):
+         time.sleep(0.1)
+         my_bar.progress(percent_complete + 1)
+         status_text.text("comparing patient variant data to available pharmogenetic data...")
+    status_text = st.empty()
+    st.success("Patient data processing complete")
 
 left, right = st.columns(2)
 
 right.write("SUMMARY")
+
 
 #right.image("template.png", width=300)
 
@@ -236,14 +249,7 @@ def clear(option):
     if option in st.session_state:
         del st.session_state[option]
 
-
-patient_data = {'name': {'first':'Janae', 'last': 'Spencer'}, 
-                'DOB':'07/04/1990', 
-                'sex': 'Female',
-                'ACC': 'A001237-5-05'}
-specimen_details = {'date_received':'04/01/2022',
-                    'date_report': '05/01/2022',
-                    'test_type': 'AOA'}
+      
 
 meds = {}
 meds["CURRENT"] = ["Metoprolol, Ondansetron, Strattera","Trimipramine (Surmontil®)"]
@@ -269,6 +275,7 @@ summary_text = ''
 # )
 # grade = form.slider("Grade", 1, 100, 60)
 # =============================================================================
+
 
 med_cat = left.radio("Select medication set to work on:",
                    ("CURRENT MEDICATIONS", "POTENTIAL MEDICATIONS") )
@@ -325,7 +332,7 @@ for c in ["CURRENT","POTENTIAL"]:
         if m in st.session_state:
             summary_text += "%s: %s (SOURCE: %s)"%(m, st.session_state[m]["lang"], st.session_state[m]["source"]) + "\n\n"
 
-right.write("=== SUMMARY ===")
+#right.write("=== SUMMARY ===")
 right.write(summary_text)
 
 if right.button("DISPLAY REPORT"):
@@ -361,6 +368,6 @@ if right.button("DISPLAY REPORT"):
 #         st.write( "%s: /t%s"%(m,st.session_state[m]) )
 # =============================================================================
 
-st.write(st.session_state)
+#st.write(st.session_state)
 
 
