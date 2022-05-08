@@ -15,7 +15,7 @@ from os import remove
 
 #import report_TESTING
 
-
+#from numpy import nan
 
 import base64
 #import pandas as pd
@@ -24,7 +24,7 @@ import json
 import time
 import pandas as pd
 
-
+import math
 
 
 
@@ -47,7 +47,8 @@ from reportlab.lib.enums import TA_RIGHT
 #registerFontFamily('Inconsolata', normal='Inconsolata', bold='InconsolataBold')
 
 
-st.set_page_config(layout="centered", page_icon="🎓", page_title="Pharmacogenetic Report Generator")
+#st.set_page_config(layout="centered", page_icon="🎓", page_title="Pharmacogenetic Report Generator")
+st.set_page_config(layout="wide",page_title="Pharmacogenetic Report Generator")
 st.title("Pharmacogenetic Report Generator")
 
 
@@ -226,26 +227,43 @@ if uploaded_file is not None:
   
     
     #st.write("comparing patient variant data to available pharmogenetic data...")
-    my_bar = st.progress(0)
-    status_text = st.empty()
-    for percent_complete in range(100):
-         time.sleep(0.1)
-         my_bar.progress(percent_complete + 1)
-         status_text.text("comparing patient variant data to available pharmogenetic data...")
-    status_text = st.empty()
-    st.success("Patient data processing complete")
+    if "pdata_loaded" not in st.session_state:
+        my_bar = st.progress(0)
+        status_text = st.empty()
+        for percent_complete in range(100):
+             time.sleep(0.1)
+             my_bar.progress(percent_complete + 1)
+             status_text.text("comparing patient variant data to available pharmogenetic data...")
+        status_text = st.empty()
+        st.success("Patient data processing complete")
+        st.session_state["pdata_loaded"] = True
     
-pgx = pd.read_csv('pgkb_cpic.txt',sep='\t')
+#pgx = pd.read_csv('pgkb_cpic.txt',sep='\t')
+uploaded_file = st.file_uploader("Import PharmGen data")
+if uploaded_file is not None:  
+    with open(uploaded_file.name) as tsv_file:
+        pgx = pd.read_csv(tsv_file,sep='\t')
+#pgx = pd.read_csv('PharmGenResults1.txt',sep='\t')
 variants = []
 medicines = []
 for idx,row in pgx.iterrows():
-    if row["pgkb_GenotypeAllele"] not in variants:
-        variants.append( row["pgkb_GenotypeAllele"] )
-    if row["pgkb_chemicals"] not in medicines:
-        medicines.append( row["pgkb_chemicals"] )
+# =============================================================================
+#     if row["pgkb_GenotypeAllele"] not in variants:
+#         variants.append( row["pgkb_GenotypeAllele"] )
+#     if row["pgkb_chemicals"] not in medicines:
+#         medicines.append( row["pgkb_chemicals"] )
+# =============================================================================
+    if row["GenotypeAllele"] not in variants:
+        variants.append( row["GenotypeAllele"] )
+    if row["chemicals"] not in medicines:
+        medicines.append( row["chemicals"] )
+    variants = [x for x in variants if type(x)==type('') or not math.isnan(x)]
+    medicines = [x for x in medicines if type(x)==type('') or not math.isnan(x)]
 
-st.write(variants)
-st.write(medicines)
+#st.write(variants)
+#st.write(medicines)
+
+
 
 left, right = st.columns(2)
 
@@ -263,15 +281,15 @@ def clear(option):
 
       
 
-meds = {}
-meds["CURRENT"] = ["Metoprolol, Ondansetron, Strattera","Trimipramine (Surmontil®)"]
-meds["POTENTIAL"] =  ["Atomoxetine (Strattera®)","Succinylcholine (Anectine®, Quelicin®)"]
-
-language = {"Metoprolol, Ondansetron, Strattera":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
-            "Atomoxetine (Strattera®)":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
-            "Succinylcholine (Anectine®, Quelicin®)":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
-            "Trimipramine (Surmontil®)":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
-            }
+#meds = {}
+#meds["CURRENT"] = ["Metoprolol, Ondansetron, Strattera","Trimipramine (Surmontil®)"]
+#meds["POTENTIAL"] =  ["Atomoxetine (Strattera®)","Succinylcholine (Anectine®, Quelicin®)"]
+#
+#language = {"Metoprolol, Ondansetron, Strattera":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
+#            "Atomoxetine (Strattera®)":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
+#            "Succinylcholine (Anectine®, Quelicin®)":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
+#            "Trimipramine (Surmontil®)":{"FDA":"blah blah "*9,"CPIC":"blah blah "*9,"PharmGKB":"blah blah "*9},
+#            }
 
 summary_text = ''
 
@@ -288,13 +306,55 @@ summary_text = ''
 # grade = form.slider("Grade", 1, 100, 60)
 # =============================================================================
 
+variant_choice = left.radio("Select gene variant to work on:",
+                     variants)
+left.write("You selected: %s"%variant_choice)
 
-med_cat = left.radio("Select medication set to work on:",
-                   ("CURRENT MEDICATIONS", "POTENTIAL MEDICATIONS") )
+#variant_relevant_rows = pgx[pgx["pgkb_GenotypeAllele"]==variant_choice]
+variant_relevant_rows = pgx[pgx["GenotypeAllele"]==variant_choice]
 
-left.write(med_cat)
-option = left.radio("Select language for ", 
-          (m for m in meds[med_cat.split()[0]]) )
+#for m in medicines:
+    #r = variant_relevant_rows[variant_relevant_rows["pgkb_chemicals"]==m]
+#med_options = pd.Series(variant_relevant_rows["pgkb_chemicals"]).unique()
+med_options = pd.Series(variant_relevant_rows["chemicals"]).unique()
+med_choice = left.radio("Select medicine:",
+                     med_options)
+left.write("You selected: %s"%med_choice)
+
+#relevant_rows = variant_relevant_rows[variant_relevant_rows["pgkb_chemicals"]==med_choice]
+relevant_rows = variant_relevant_rows[variant_relevant_rows["chemicals"]==med_choice]
+
+cpic = relevant_rows.loc[:,[col for col in relevant_rows.columns if 'cpic' in col]]
+pgkb = relevant_rows.loc[:,[col for col in relevant_rows.columns if 'cpic' not in col]]
+
+lang_options = []
+for idx,row in cpic.iterrows():
+    text_block = '\n'.join( [str(c) for c in row if type(c)==type('') or not math.isnan(c)] )
+    lang_options.append( "CPIC: %s"%text_block )
+for idx,row in pgkb.iterrows():
+    text_block = '\n'.join( [str(c) for c in row if type(c)==type('') or not math.isnan(c)] )
+    lang_options.append( "PGKB: %s"%text_block )
+#st.write(lang_options)
+
+#lang_options = ["%s: %s"%(k,language[option][k]) for k in language[option].keys() ]
+lang_options.append("CUSTOM TEXT BLOCK")
+lang_options.append("CLEAR ------")
+lang_choice = left.radio("What language do you want to report",
+     lang_options )
+if lang_choice == "CUSTOM TEXT BLOCK":
+    lang_choice = left.text_input('Compose text and press [enter] to submit to form', 'CUSTOM: ')
+#st.write(pgkb)
+
+
+# =============================================================================
+# med_cat = left.radio("Select medication set to work on:",
+#                    ("CURRENT MEDICATIONS", "POTENTIAL MEDICATIONS") )
+# 
+# left.write(med_cat)
+# option = left.radio("Select language for ", 
+#           (m for m in meds[med_cat.split()[0]]) )
+# =============================================================================
+
     
 #option = st.selectbox(
 #     'select among current meds',
@@ -303,46 +363,70 @@ option = left.radio("Select language for ",
 #summary += option
 
 #print( option)
-left.write("You selected: %s"%option)
-#left.write('You selected:', option)
-lang_options = ["%s: %s"%(k,language[option][k]) for k in language[option].keys() ]
-lang_options.append("CUSTOM TEXT BLOCK")
-lang_options.append("CLEAR ------")
-lang_choice = left.radio("What language do you want to report",
-     lang_options )
-if lang_choice == "CUSTOM TEXT BLOCK":
-    lang_choice = left.text_input('Movie title', 'CUSTOM: ')
+# =============================================================================
+# left.write("You selected: %s"%option)
+# #left.write('You selected:', option)
+# lang_options = ["%s: %s"%(k,language[option][k]) for k in language[option].keys() ]
+# lang_options.append("CUSTOM TEXT BLOCK")
+# lang_options.append("CLEAR ------")
+# lang_choice = left.radio("What language do you want to report",
+#      lang_options )
+# if lang_choice == "CUSTOM TEXT BLOCK":
+#     lang_choice = left.text_input('Movie title', 'CUSTOM: ')
+# =============================================================================
     
+# =============================================================================
+# if left.button('STORE CHOICE'):
+#     #if 'key' not in st.session_state:
+#     if lang_choice == "CLEAR ------":
+#         #st.session_state[option] = {"source": '', "lang": ''} 
+#         clear(option)
+#     else:
+#         lang_choice = lang_choice.split(": ")
+#         st.session_state[option] = {"source": lang_choice[0],"lang": lang_choice[1]}
+# =============================================================================
+        
 if left.button('STORE CHOICE'):
     #if 'key' not in st.session_state:
     if lang_choice == "CLEAR ------":
         #st.session_state[option] = {"source": '', "lang": ''} 
-        clear(option)
+        clear(med_choice)
     else:
         lang_choice = lang_choice.split(": ")
-        st.session_state[option] = {"source": lang_choice[0],"lang": lang_choice[1]}
+        st.session_state[(med_choice,variant_choice)] = {"source": lang_choice[0],"lang": lang_choice[1]}
     
 
 #submit = form.form_submit_button("Generate PDF")
-if right.button("CLEAR CURRENT"):
-    for m in meds["CURRENT"]:
-        clear(m)
-
-if right.button("CLEAR POTENTIAL"):
-    for m in meds["POTENTIAL"]:
-        clear(m)
-
-if right.button("CLEAR ALL"):
-    summary_text = ''
-    for c in ["CURRENT","POTENTIAL"]:
-        for m in meds[c]:
-            clear(m)
-
-for c in ["CURRENT","POTENTIAL"]:
-    summary_text += c + " MEDICATIONS\n\n"
-    for m in meds[c]:
-        if m in st.session_state:
-            summary_text += "%s: %s (SOURCE: %s)"%(m, st.session_state[m]["lang"], st.session_state[m]["source"]) + "\n\n"
+# =============================================================================
+# if right.button("CLEAR CURRENT"):
+#     for m in meds["CURRENT"]:
+#         clear(m)
+# 
+# if right.button("CLEAR POTENTIAL"):
+#     for m in meds["POTENTIAL"]:
+#         clear(m)
+# 
+# if right.button("CLEAR ALL"):
+#     summary_text = ''
+#     for c in ["CURRENT","POTENTIAL"]:
+#         for m in meds[c]:
+#             clear(m)
+# 
+# =============================================================================
+#for c in ["CURRENT","POTENTIAL"]:
+# =============================================================================
+# for c in ["CURRENT","POTENTIAL"]:
+#     summary_text += c + " MEDICATIONS\n\n"
+#     for m in medicines[c]:
+#         if m in st.session_state:
+#             summary_text += "%s: %s (SOURCE: %s)"%(m, st.session_state[m]["lang"], st.session_state[m]["source"]) + "\n\n"
+# =============================================================================
+for m in medicines:
+    summary_text += m.upper() + "\n\n"
+    for v in variants:
+        if (m,v) in st.session_state:
+            summary_text += v.upper() + "\n\n"
+            summary_text += "%s: %s (SOURCE: %s)"%(m, st.session_state[(m,v)]["lang"], st.session_state[(m,v)]["source"]) + "\n\n\n"
 
 #right.write("=== SUMMARY ===")
 right.write(summary_text)
