@@ -134,11 +134,6 @@ def generate_print_pdf(data, patient_data, specimen_details):
     return pdfname
 
 
-"""
-    Draw the framework for the first page,
-    pass in contact info as a dictionary
-"""
-
 def myPageWrapper2(patient_data, specimen_details):
     # template for static, non-flowables, on the first page
     # draws all of the contact information at the top of the page
