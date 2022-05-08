@@ -3,3 +3,8 @@ npm (required for pdfkit)
 pdfkit
 streamlit
 reportlab
+base64
+json
+time
+pandas
+math
