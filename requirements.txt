@@ -1,12 +1,8 @@
 npm
 streamlit
 reportlab
-time
 pandas
 math
-datetime
-os.path
-os
 reportlab.pdfgen
 reportlab.platypus
 reportlab.platypus.flowables
