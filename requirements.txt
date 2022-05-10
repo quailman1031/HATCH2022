@@ -2,16 +2,3 @@ npm
 streamlit
 reportlab
 pandas
-reportlab.pdfgen
-reportlab.platypus
-reportlab.platypus.flowables
-reportlab.lib.styles
-reportlab.rl_config
-reportlab.lib.units
-reportlab.lib
-reportlab.lib.pagesizes
-reportlab.pdfgen
-reportlab.pdfbase
-reportlab.pdfbase.pdfmetrics
-reportlab.pdfbase.ttfonts
-reportlab.lib.enums
