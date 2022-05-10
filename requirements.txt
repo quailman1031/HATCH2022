@@ -2,7 +2,6 @@ npm
 streamlit
 reportlab
 pandas
-math
 reportlab.pdfgen
 reportlab.platypus
 reportlab.platypus.flowables
