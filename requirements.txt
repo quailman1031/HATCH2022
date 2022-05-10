@@ -2,7 +2,6 @@ npm
 pdfkit
 streamlit
 reportlab
-base64
 json
 time
 pandas
