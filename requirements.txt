@@ -1,8 +1,6 @@
 npm
-pdfkit
 streamlit
 reportlab
-json
 time
 pandas
 math
