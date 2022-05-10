@@ -1,4 +1,3 @@
-npm
 streamlit
 reportlab
 pandas
