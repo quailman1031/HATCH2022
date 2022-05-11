@@ -214,9 +214,10 @@ specimen_details = {'date_received':'04/01/2022',
                     'test_type': 'AOA'}
 
 if uploaded_file is not None:  
-    with open(uploaded_file.name) as json_file:
-        lab_results = json.load(json_file)
+    #with open(uploaded_file.name) as json_file:
+    #    lab_results = json.load(json_file)
     #lab_results = json.load(uploaded_file.name)
+    lab_results = pd.read_json(uploaded_file)
     patient_data["ID"] = lab_results['PATIENT']['id']
     patient_data["DOB"] = lab_results['PATIENT']['birthDate']
   
@@ -236,8 +237,9 @@ if uploaded_file is not None:
 #pgx = pd.read_csv('pgkb_cpic.txt',sep='\t')
 uploaded_file = st.file_uploader("Import PharmGen data")
 if uploaded_file is not None:  
-    with open(uploaded_file.name) as tsv_file:
-        pgx = pd.read_csv(tsv_file,sep='\t')
+    #with open(uploaded_file.name) as tsv_file:
+    #    pgx = pd.read_csv(tsv_file,sep='\t')
+    pgx = pd.read_csv(uploaded_file,sep='\t')
 #pgx = pd.read_csv('PharmGenResults1.txt',sep='\t')
 variants = []
 medicines = []
